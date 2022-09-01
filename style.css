@@ -144,7 +144,7 @@ background-color: #202c45;
 } */
 /* section 4 start  */
 .hero{
-  background-image: url(bg2.jpg);
+  background-image: url(Assets/bg2.jpg);
   /* background: url('https://cdn.pixabay.com/photo/2022/01/28/09/26/azadi-tower-6974106_960_720.jpg'); */
   min-height: 600px;
   background-position: center;
@@ -317,7 +317,7 @@ padding:15px;
 
 /*section7 start */
 .background-image{
-  background-image: url(bg2.jpg);
+  background-image: url(Assets/bg2.jpg);
 }
 .students{
   margin-bottom:45px;
@@ -514,7 +514,7 @@ argin: 0 auto;
   background-color: rgba(32, 44, 69, 0.9);
 }
 .happystudents{
-  background-image: url(bg2.jpg);
+  background-image: url(Assets/bg2.jpg);
 background-color:rgba(32, 44, 69, 0.9);
 color:#fff;
 }
@@ -658,7 +658,7 @@ width:100%;
 /* section14 end  */
 /* section15 start  */
 .background-image{
-  background-image: url(bg2.jpg);  
+  background-image: url(Assets/bg2.jpg);  
   background-repeat: no-repeat;
 }
 .twitterfeeds{
