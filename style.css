@@ -737,26 +737,84 @@ flex-basis:24%;
 /* .subscribe{
   margin:10px;
 } */
-@media screen and (max-width: 600px) {
-
-}
-@media screen and (max-width: 768px) {
-  .group-photo .images div {
-    flex-basis: 48%;
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .header, .middleheader {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  .engineering {
-    flex-basis: 48%;
-  }
-  .studies {
-    flex-basis: 48%;
-}
-.imgmap {
-  flex-basis: 48%;
-}
-.press{
-  flex-basis:48%;
-}
-}
-@media screen and (max-width: 1024px) {
 
+  .hero-child {
+    top: 20%;
+    left: 5%;
+  }
+
+  .heroh1 {
+    font-size: 50px;
+  }
+
+  .courses {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .logo img {
+    width: 12px;
+    margin: 5px;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .students {
+    flex-direction: column;
+  }
+
+  .engineering, .studies {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .time {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .education {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroh1 {
+    font-size: 30px;
+  }
+
+  .courses {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .imag {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .engineering img {
+    height: auto;
+  }
+
+  .top-left, .upcomming {
+    flex-direction: column;
+    align-items: center;
+  }
 }
