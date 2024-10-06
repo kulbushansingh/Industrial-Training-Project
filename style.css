@@ -786,35 +786,37 @@ flex-basis:24%;
   }
 }
 
-@media (max-width: 480px) {
-  .heroh1 {
-    font-size: 30px;
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 50px; /* Responsive font size */
   }
 
-  .courses {
-    font-size: 12px;
+  .h3 {
+    font-size: 25px; /* Adjust h3 for smaller screens */
   }
 
-  h3 {
-    font-size: 24px;
+  .hero-child {
+    top: 40%; /* Adjust positioning */
   }
 
+  .header {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .menu {
+    flex-direction: column; /* Stack menu items */
+  }
+
+  /* Adjust button sizes and padding */
   button {
-    padding: 8px 16px;
-    font-size: 12px;
+    padding: 8px 16px; 
+    font-size: 14px; 
   }
 
-  .imag {
-    flex-direction: column;
-    align-items: center;
+  .nav {
+    flex-direction: column; /* Stack navigation items */
+    align-items: center; /* Center align items */
   }
 
-  .engineering img {
-    height: auto;
-  }
-
-  .top-left, .upcomming {
-    flex-direction: column;
-    align-items: center;
-  }
+  /* More responsive adjustments can be added as needed */
 }
