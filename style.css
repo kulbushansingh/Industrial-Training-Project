@@ -8,7 +8,8 @@ button{
   cursor: pointer;
   border-radius: 10px;
   transition: all 0.1s linear;
-  margin-bottom:17px;
+  margin-bottom: 17px;
+  padding: 10px 20px; /* Adjust padding for better touch area */
 }
 
 button:hover{
@@ -47,8 +48,8 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items:center;
-  max-width:1180px;
-  margin:0 auto;
+  max-width: 100%; /* Use full width without exceeding */
+  padding: 0 15px; /* Add padding for better alignment */
 }
 
 .logo img {
@@ -149,15 +150,16 @@ background-color: #202c45;
   min-height: 600px;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
-  object-fit: cover;
+  /* position: relative;
+  object-fit: cover; */
   background-size: cover;
 }
 .hero-child{
-  position: absolute;
-    top: 39%;
-    bottom: 0;
-    left: 10%;
+  position: relative; /* Change from absolute to relative */
+  top: 0; /* Reset positioning */
+  left: 0; /* Reset positioning */
+  padding: 0 10%; /* Adjust padding for responsiveness */
+
 }
 .heroh1{
   font-size:100px;
