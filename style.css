@@ -507,10 +507,10 @@ margin-top:20px;
 argin: 0 auto;
   max-width: 1440px;
 } */
-.testimonials{
-  display:flex;
-  margin-top:43px;
-  padding-bottom:85px;
+.testimonials {
+  display: block;
+  margin-top: 43px;
+  padding-bottom: 85px;
 }
 .colorr, commonConatiner{
   background-color: rgba(32, 44, 69, 0.9);
@@ -596,11 +596,12 @@ color:#fff;
 .action{
   margin-bottom:10px;
 }
-.table{
-  display:flex;
-  width:100%;
-  gap:6%;
-  margin-bottom:20px;
+.table {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 8px;
 }
 .entername{
   padding: 12px 10px;
@@ -671,12 +672,12 @@ width:100%;
   justify-content:space-evenly;
   padding-top:85px; */
 }
-.press{
-  display:flex;
-  padding-top:85px;
- gap:1%;
- flex-wrap: wrap;
-
+.press {
+  flex-direction: column;
+  display: flex;
+  padding-top: 85px;
+  gap: 50%;
+  flex-wrap: wrap;
 }
 .logo-bottom{
   padding-top:40px;
@@ -711,7 +712,8 @@ flex-basis:24%;
 .icon{
   margin: 3px 0px 0px 0;
 }
-.lastsection{
+.lastsection {
+  gap: 25%;
   display: flex;
 }
 .callus{
@@ -725,7 +727,7 @@ flex-basis:24%;
 }
 
 .subscribeus{
-  width:33%;
+  width:75%;
   padding-top: 8px;
   padding:7px 12px;
 }
